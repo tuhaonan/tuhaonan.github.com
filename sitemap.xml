@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2015-07-12T22:47:16-00:00</lastmod>
+<lastmod>2015-07-13T00:11:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2015-07-12T22:47:16-00:00</lastmod>
+<lastmod>2015-07-13T00:11:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2015-07-12T22:47:16-00:00</lastmod>
+<lastmod>2015-07-13T00:11:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2015-07-12T22:47:16-00:00</lastmod>
+<lastmod>2015-07-13T00:11:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,36 +39,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/my-super-post.html</loc>
-<lastmod>2010-12-03T10:20:00+01:00</lastmod>
+<loc>/ji-lu-you-shua-ji.html</loc>
+<lastmod>2015-07-13T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/category/python.html</loc>
-<lastmod>2010-12-03T10:20:00+00:09</lastmod>
+<loc>/category/misc.html</loc>
+<lastmod>2015-07-13T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pelican.html</loc>
-<lastmod>2010-12-03T10:20:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/publishing.html</loc>
-<lastmod>2010-12-03T10:20:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/author/alexis-metaireau.html</loc>
-<lastmod>2010-12-03T10:20:00+00:09</lastmod>
+<loc>/author/thn.html</loc>
+<lastmod>2015-07-13T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

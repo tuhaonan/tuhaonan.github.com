@@ -6,7 +6,9 @@
         <meta name="author" content="THn" />
         <meta name="copyright" content="THn" />
 
-        <title>THn - Authors</title>
+<meta name="keywords" content=", misc, " />
+        <title>极路由 刷机  · THn
+</title>
         <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/theme/css/style.css" media="screen">
@@ -47,10 +49,90 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
-    <h1>Authors on THn</h1>
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="/ji-lu-you-shua-ji.html"> 极路由 刷机  </a></h1>
+    </header>
+</div>
 
-    <ul>        <li><a href="/author/thn.html">THn</a> (1)</li>
-    </ul>
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <h1>申请root</h1>
+<ul>
+<li>前往云平台页面-路由器信息-最底部的高级设置点击展开按钮-点击申请
+ <img alt="" src="http://bbs.hiwifi.com/forum.php?mod=attachment&amp;aid=ODI0NzV8YTI2NDU0NWN8MTQzNjc1NzM5OHwyMDY4NDk4fDc0ODc5&amp;noupdate=yes" /></li>
+<li>
+<p>申请之后安装该插件即可开通
+<img alt="" src="http://7xkcd4.com1.z0.glb.clouddn.com/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE%E6%9C%AA%E5%91%BD%E5%90%8D.jpg?imageView/2/w/619/q/90" /></p>
+</li>
+<li>
+<p>使用putty登录ssh
+<img alt="" src="http://7xkcd4.com1.z0.glb.clouddn.com/233.jpg" /></p>
+</li>
+</ul>
+<h1>刷入不死uboot</h1>
+<h2>目的是为了防止刷机过程中意外断电变砖头</h2>
+<blockquote>
+<p>注意<strong>5X61A</strong>的机子极容易变砖 刷uboot也会</p>
+</blockquote>
+<p>这里介绍刷入uboot的升级版breed</p>
+<blockquote>
+<p>cd /tmp &amp;&amp; rm -rf geetool.sh &amp;&amp; wget http://hiwifi.imhjh.pw/geetool.sh &amp;&amp;chmod 755 geetool.sh&amp;&amp;./geetool.sh &amp;&amp; rm -rf geetool.sh</p>
+</blockquote>
+<p>按提示将官方uboot升级为breed</p>
+<blockquote>
+<p>备份一些必要文件方便变砖回血</p>
+</blockquote>
+<p>将路由上蓝色接口的网线拔出 只插入连接电脑的网线 </p>
+<ol>
+<li>将电脑本地ip改为<code>192.168.1.88/255.255.255.0</code></li>
+<li>断开路由器电源</li>
+<li>用较细棍状物体插入小极后部RST孔 不松开</li>
+<li>在<strong>不松开</strong>的情况下 插上电源</li>
+<li>等待10秒左右</li>
+<li>进入网页 192.168.1.1</li>
+</ol>
+<p>选择备份固件</p>
+<blockquote>
+<p>可能不只这一个 反正备份一切</p>
+</blockquote>
+<h1>刷入系统</h1>
+<p>这时候你可以选择再次进入升级breed过程种的工具箱选择升级</p>
+<p>也可以直接在breed中选择升级</p>
+<p>很重要一点无乱选哪种方式在 提示重启后请耐心等待 直到 可以访问<code>192.168.1.1</code>或<code>192.168.199.1</code></p>
+<h1>可选固件</h1>
+<blockquote>
+<p>我在第一次刷机的时候选择在工具箱里备份 结果备份随变砖一起没了,我想再刷回官方 结果官方固件一直卡在闪灯阶段</p>
+</blockquote>
+<p>官方固件稳定版 <code>http://dwz.cn/Z8akf</code></p>
+<p>同时推荐OpenWrt-HiWiFi</p>
+<ol>
+<li>极1 <a href="http://rssn.cn/roms/openwrt-ar71xx-generic-hiwifi-hc6361-squashfs-sysupgrade.bin">HC6361</a></li>
+<li>极1s 极2通用 <a href="http://rssn.cn/roms/openwrt-ramips-mt7620a-hiwifi-hc5761-squashfs-sysupgrade.bin">HC5661/HC5761</a></li>
+<li>极3<a href="http://rssn.cn/roms/openwrt-ramips-mt7620a-hiwifi-hc5761-squashfs-sysupgrade.bin">HC5861</a></li>
+</ol>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2015-07-13T00:00:00+02:00">Jul 13, 2015</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#misc-ref">misc</a> 
+
+        </div>
+        </section>
+</div>
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -62,7 +144,7 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
         <script>
             function validateForm(query)
@@ -70,5 +152,6 @@
                 return (query.length > 0);
             }
         </script>
+
     </body>
 </html>
