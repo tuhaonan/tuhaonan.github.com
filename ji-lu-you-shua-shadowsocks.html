@@ -7,7 +7,7 @@
         <meta name="copyright" content="THn" />
 
 <meta name="keywords" content=", misc, " />
-        <title>CentOS 7 开放端口  · THn
+        <title>极路由刷Shadowsocks  · THn
 </title>
         <link href="https://thn.oss-cn-hangzhou.aliyuncs.com/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="https://thn.oss-cn-hangzhou.aliyuncs.com/bootstrap-combined.min.css" rel="stylesheet">
@@ -61,27 +61,50 @@
 <article>
 <div class="row-fluid">
     <header class="page_header span10 offset2">
-    <h1><a href="https://doge.im/centos-7-kai-fang-duan-kou.html"> CentOS 7 开放端口  </a></h1>
+    <h1><a href="https://doge.im/ji-lu-you-shua-shadowsocks.html"> 极路由刷Shadowsocks  </a></h1>
     </header>
 </div>
 
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
 
-            <h1>CentOS 7 开放端口</h1>
-<div class="highlight"><pre>firewall-cmd --zone=public --add-port=80/tcp --permanent
-firewall-cmd --reload
-</pre></div>
-
-
-<p>即可</p>
-<p>起初以为自己是mini版的缘故使用iptables报错No such file or directory百度后得知在CentOS 7中iptables被firewalld代替</p>
+            <h1>极路由刷Shadowsocks</h1>
+<ul>
+<li>
+<p>前往云平台页面-路由器信息-最底部的高级设置点击展开按钮-点击申请</p>
+</li>
+<li>
+<p>申请之后安装名为<code>开发者模式</code>的插件即可开通</p>
+</li>
+<li>
+<p>使用putty登录ssh</p>
+</li>
+</ul>
+<p><img alt="" src="http://thn.oss-cn-hangzhou.aliyuncs.com/1.jpg" /></p>
+<p>用户名:root 密码:路由器登录密码</p>
+<ul>
+<li>登录成功后输入<code>cd /tmp</code></li>
+</ul>
+<p><a href="https://github.com/rssnsj/network-feeds/releases/download/HC5x61-2015-07-26-2/HC5661-0.9012.1.9277s-sysupgrade-20150603-4143ebbd.Shadowsocks.bin">HC5661</a></p>
+<p><a href="https://github.com/rssnsj/network-feeds/releases/download/HC5x61-2015-07-26-2/HC5761-0.9012.1.9277s-sysupgrade-20150603-3356d35e.Shadowsocks.bin">HC5761</a></p>
+<p><a href="https://github.com/rssnsj/network-feeds/releases/download/HC5x61-2015-07-26-2/HC5861-0.9012.1.9277s-sysupgrade-20150603-15fa16e2.Shadowsocks.bin">HC5861</a></p>
+<ol>
+<li>按照你的机器型号复制上面的地址</li>
+</ol>
+<p>例如我是极1s就输入
+<code>wget https://github.com/rssnsj/network-feeds/releases/download/HC5x61-2015-07-26-2/HC5661-0.9012.1.9277s-sysupgrade-20150603-4143ebbd.Shadowsocks.bin</code></p>
+<p>然后输入
+<code>sysupgrade -n HC5661-0.9012.1.9277s-sysupgrade-20150603-4143ebbd.Shadowsocks.bin</code></p>
+<p>即可完成安装 注意！建议刷插件或者刷系统前关闭led灯后</p>
+<p>在刷插件或者刷系统凡是led跳动都不要关闭电源，在led熄灭后即成功刷入</p>
             <aside>
             <hr/>
             <nav>
             <ul class="articles_timeline">
  
-                <li class="previous_article">« <a href="https://doge.im/ji-lu-you-shua-shadowsocks.html" title="Previous: 极路由刷Shadowsocks">极路由刷Shadowsocks</a></li>
+                <li class="previous_article">« <a href="https://doge.im/ya-ma-xun-awszhong-guo-ban-ce-ping.html" title="Previous: 亚马逊AWS中国版测评">亚马逊AWS中国版测评</a></li>
+ 
+                <li class="next_article"><a href="https://doge.im/centos-7-kai-fang-duan-kou.html" title="Next: CentOS 7 开放端口">CentOS 7 开放端口</a> »</li>
             </ul>
             </nav>
             </aside>
