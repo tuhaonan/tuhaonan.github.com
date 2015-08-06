@@ -4,140 +4,140 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://doge.im/</loc>
-<lastmod>2015-08-06T01:05:03-00:00</lastmod>
+<loc>https://doge.im/</loc>
+<lastmod>2015-08-06T01:05:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/archives.html</loc>
-<lastmod>2015-08-06T01:05:03-00:00</lastmod>
+<loc>https://doge.im/archives.html</loc>
+<lastmod>2015-08-06T01:05:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tags.html</loc>
-<lastmod>2015-08-06T01:05:03-00:00</lastmod>
+<loc>https://doge.im/tags.html</loc>
+<lastmod>2015-08-06T01:05:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/categories.html</loc>
-<lastmod>2015-08-06T01:05:03-00:00</lastmod>
+<loc>https://doge.im/categories.html</loc>
+<lastmod>2015-08-06T01:05:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/pages/about-me.html</loc>
+<loc>https://doge.im/pages/about-me.html</loc>
 <lastmod>2015-07-13T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
-<loc>http://doge.im/debiankai-fang-duan-kou.html</loc>
+<loc>https://doge.im/debiankai-fang-duan-kou.html</loc>
 <lastmod>2015-08-05T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://doge.im/centos-7-kai-fang-duan-kou.html</loc>
+<loc>https://doge.im/centos-7-kai-fang-duan-kou.html</loc>
 <lastmod>2015-07-31T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://doge.im/ji-lu-you-shua-shadowsocks.html</loc>
+<loc>https://doge.im/ji-lu-you-shua-shadowsocks.html</loc>
 <lastmod>2015-07-31T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://doge.im/ya-ma-xun-awszhong-guo-ban-ce-ping.html</loc>
+<loc>https://doge.im/ya-ma-xun-awszhong-guo-ban-ce-ping.html</loc>
 <lastmod>2015-07-17T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://doge.im/ji-lu-you-shua-ji.html</loc>
+<loc>https://doge.im/ji-lu-you-shua-ji.html</loc>
 <lastmod>2015-07-13T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://doge.im/category/misc.html</loc>
+<loc>https://doge.im/category/misc.html</loc>
 <lastmod>2015-08-05T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/ce-ping.html</loc>
+<loc>https://doge.im/tag/ce-ping.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/bei-jing.html</loc>
+<loc>https://doge.im/tag/bei-jing.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/aws.html</loc>
+<loc>https://doge.im/tag/aws.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/ya-ma-xun.html</loc>
+<loc>https://doge.im/tag/ya-ma-xun.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/amazon.html</loc>
+<loc>https://doge.im/tag/amazon.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/ec2.html</loc>
+<loc>https://doge.im/tag/ec2.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/zhong-guo-ban.html</loc>
+<loc>https://doge.im/tag/zhong-guo-ban.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/tag/ce-shi.html</loc>
+<loc>https://doge.im/tag/ce-shi.html</loc>
 <lastmod>2015-07-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://doge.im/author/thn.html</loc>
+<loc>https://doge.im/author/thn.html</loc>
 <lastmod>2015-08-05T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
