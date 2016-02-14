@@ -6,7 +6,9 @@
         <meta name="author" content="THn" />
         <meta name="copyright" content="THn" />
 
-        <title>THn - Authors</title>
+<meta name="keywords" content=", misc, " />
+        <title>安装Pelican静态博客  · THn
+</title>
         <link href="http://7xkcd4.com1.z0.glb.clouddn.com/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="http://7xkcd4.com1.z0.glb.clouddn.com/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://7xkcd4.com1.z0.glb.clouddn.com/style.css" media="screen">
@@ -47,10 +49,91 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
-    <h1>Authors on THn</h1>
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://doge.im/an-zhuang-pelicanjing-tai-bo-ke.html"> 安装Pelican静态博客  </a></h1>
+    </header>
+</div>
 
-    <ul>        <li><a href="http://doge.im/author/thn.html">THn</a> (3)</li>
-    </ul>
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <blockquote>
+<p>请使用<strong>Python 2.7.x</strong> 推荐centos7</p>
+</blockquote>
+<h2>安装pip</h2>
+<blockquote>
+<p>wget https://bootstrap.pypa.io/get-pip.py --no-check-certificate</p>
+<p>python get-pip.py</p>
+</blockquote>
+<h2>安装git</h2>
+<blockquote>
+<p>yum install git</p>
+</blockquote>
+<h2>安装本体</h2>
+<blockquote>
+<p>pip install pelican</p>
+<p>pip install -e "git+https://github.com/getpelican/pelican.git#egg=pelican"</p>
+</blockquote>
+<h2>开始博客</h2>
+<blockquote>
+<p>pelican-quickstart
+pip install Markdown #安装Markdown</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>yourproject/
+├── content
+│   └── (pages)
+├── output
+├── develop_server.sh
+├── fabfile.py
+├── Makefile
+├── pelicanconf.py       # 配置文件
+└── publishconf.py       # 蜜汁文件</p>
+</blockquote>
+<h2>第一篇博文</h2>
+<p>在线编辑器推荐<a href="https://www.zybuluo.com/mdeditor">Cmd Markdown</a></p>
+<blockquote>
+<p>Title: 文章标题
+Date: 2016-02-14
+Category: 文章类别
+Tag: 标签1, 标签2
+             正文内容</p>
+</blockquote>
+<p>导出以后放入content文件夹</p>
+<h2>生成html</h2>
+<blockquote>
+<p>make html</p>
+</blockquote>
+<h2>报错</h2>
+<blockquote>
+<p>AttributeError: 'NoneType' object has no attribute 'startswith'</p>
+</blockquote>
+<p>暴力解决File "/root/src/pelican/pelican/log.py" 222行代码即可</p>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://doge.im/tcxian-su-li-zi.html" title="Previous: TC限速例子">TC限速例子</a></li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2016-02-14T00:00:00+01:00">Feb 14, 2016</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#misc-ref">misc</a> 
+
+        </div>
+        </section>
+</div>
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -63,7 +146,7 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer>        <script src="http://7xkcd4.com1.z0.glb.clouddn.com/jquery.js"></script>
+</footer>            <script src="http://7xkcd4.com1.z0.glb.clouddn.com/jquery.js"></script>
         <script src="http://7xkcd4.com1.z0.glb.clouddn.com/bootstrap.min.js"></script>
         <script>
             function validateForm(query)
@@ -71,5 +154,6 @@
                 return (query.length > 0);
             }
         </script>
+
     </body>
 </html>
