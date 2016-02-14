@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://doge.im/</loc>
-<lastmod>2016-02-14T08:50:12-00:00</lastmod>
+<lastmod>2016-02-14T08:52:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/archives.html</loc>
-<lastmod>2016-02-14T08:50:12-00:00</lastmod>
+<lastmod>2016-02-14T08:52:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/tags.html</loc>
-<lastmod>2016-02-14T08:50:12-00:00</lastmod>
+<lastmod>2016-02-14T08:52:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/categories.html</loc>
-<lastmod>2016-02-14T08:50:12-00:00</lastmod>
+<lastmod>2016-02-14T08:52:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,13 +41,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://doge.im/an-zhuang-pelicanjing-tai-bo-ke.html</loc>
 <lastmod>2016-02-14T00:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-
-<url>
-<loc>http://doge.im/tcxian-su-li-zi.html</loc>
-<lastmod>2015-10-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
