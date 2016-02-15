@@ -60,50 +60,60 @@
 <p>请使用<strong>Python 2.7.x</strong> 推荐centos7</p>
 </blockquote>
 <h2>安装pip</h2>
-<blockquote>
-<p>wget https://bootstrap.pypa.io/get-pip.py --no-check-certificate</p>
-<p>python get-pip.py</p>
-</blockquote>
+<div class="highlight"><pre>wget https://bootstrap.pypa.io/get-pip.py --no-check-certificate
+
+python get-pip.py
+</pre></div>
+
+
 <h2>安装git</h2>
-<blockquote>
-<p>yum install git</p>
-</blockquote>
+<div class="highlight"><pre>yum install git
+</pre></div>
+
+
 <h2>安装本体</h2>
-<blockquote>
-<p>pip install pelican</p>
-<p>pip install -e "git+https://github.com/getpelican/pelican.git#egg=pelican"</p>
-</blockquote>
+<div class="highlight"><pre>pip install pelican
+
+pip install -e &quot;git+https://github.com/getpelican/pelican.git#egg=pelican&quot;
+</pre></div>
+
+
 <h2>开始博客</h2>
-<blockquote>
-<p>pelican-quickstart
-pip install Markdown #安装Markdown</p>
-</blockquote>
+<div class="highlight"><pre>pelican-quickstart
+
+pip install Markdown #安装Markdown
+</pre></div>
+
+
 <hr />
-<blockquote>
-<p>yourproject/</p>
-<p>├── content</p>
-<p>│   └── (pages)</p>
-<p>├── output</p>
-<p>├── develop_server.sh</p>
-<p>├── fabfile.py</p>
-<p>├── Makefile</p>
-<p>├── pelicanconf.py       # 配置文件</p>
-<p>└── publishconf.py       # 蜜汁文件</p>
-</blockquote>
+<div class="highlight"><pre>yourproject/
+├── content
+│   └── (pages)
+├── output
+├── develop_server.sh
+├── fabfile.py
+├── Makefile
+├── pelicanconf.py       # 配置文件
+└── publishconf.py       # 蜜汁文件
+</pre></div>
+
+
 <h2>第一篇博文</h2>
 <p>在线编辑器推荐<a href="https://www.zybuluo.com/mdeditor">Cmd Markdown</a></p>
-<blockquote>
-<p>Title: 文章标题
+<div class="highlight"><pre>Title: 文章标题
 Date: 2016-02-14
 Category: 文章类别
 Tag: 标签1, 标签2
-             正文内容</p>
-</blockquote>
+             正文内容
+</pre></div>
+
+
 <p>导出以后放入content文件夹</p>
 <h2>生成html</h2>
-<blockquote>
-<p>make html</p>
-</blockquote>
+<div class="highlight"><pre>make html
+</pre></div>
+
+
 <h2>报错</h2>
 <blockquote>
 <p>AttributeError: 'NoneType' object has no attribute 'startswith'</p>
