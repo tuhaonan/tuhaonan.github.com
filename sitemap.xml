@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://doge.im/</loc>
-<lastmod>2016-02-15T05:26:54-00:00</lastmod>
+<lastmod>2016-02-15T06:02:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/archives.html</loc>
-<lastmod>2016-02-15T05:26:54-00:00</lastmod>
+<lastmod>2016-02-15T06:02:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/tags.html</loc>
-<lastmod>2016-02-15T05:26:54-00:00</lastmod>
+<lastmod>2016-02-15T06:02:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/categories.html</loc>
-<lastmod>2016-02-15T05:26:54-00:00</lastmod>
+<lastmod>2016-02-15T06:02:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -46,8 +46,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://doge.im/ji-lu-you-shua-ji.html</loc>
-<lastmod>2015-07-13T00:00:00+02:00</lastmod>
+<loc>http://doge.im/ji-lu-you-shua-shadowsocks.html</loc>
+<lastmod>2015-07-01T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
