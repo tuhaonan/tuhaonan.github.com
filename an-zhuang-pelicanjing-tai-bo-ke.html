@@ -114,6 +114,30 @@ Tag: 标签1, 标签2
 </pre></div>
 
 
+<h2>使用插件和主题</h2>
+<p>1.主题
+先把主题克隆下来</p>
+<div class="highlight"><pre>git clone --recursive https://github.com/getpelican/pelican-themes ~/pelican-themes
+</pre></div>
+
+
+<p>编辑pelicanconf.py文件添加</p>
+<div class="highlight"><pre>THEME = &quot;/home/user/pelican-themes/theme-name&quot;
+</pre></div>
+
+
+<p>2.插件
+克隆插件</p>
+<div class="highlight"><pre>git clone --recursive https://github.com/getpelican/pelican-plugins
+</pre></div>
+
+
+<p>与主题一样添加</p>
+<div class="highlight"><pre>PLUGIN_PATHS = [&#39;path/to/pelican-plugins&#39;]
+PLUGINS = [&#39;assets&#39;, &#39;sitemap&#39;, &#39;gravatar&#39;]
+</pre></div>
+
+
 <h2>报错</h2>
 <blockquote>
 <p>AttributeError: 'NoneType' object has no attribute 'startswith'</p>
