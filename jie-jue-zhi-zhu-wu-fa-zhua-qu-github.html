@@ -6,7 +6,9 @@
         <meta name="author" content="THn" />
         <meta name="copyright" content="THn" />
 
-        <title>THn - Articles by THn</title>
+<meta name="keywords" content=", misc, " />
+        <title>解决蜘蛛无法抓取github  · THn
+</title>
         <link rel="stylesheet" type="text/css" href="http://7xkcd4.com1.z0.glb.clouddn.com/666.css" media="screen">
         <link rel="shortcut icon" href="http://7xkcd4.com1.z0.glb.clouddn.com/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="http://doge.im/theme/images/apple-touch-icon.png" />
@@ -44,50 +46,64 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
+<article>
 <div class="row-fluid">
-
-    <div class="row-fluid">
-
-    </div>
-
-    <div class="row-fluid">
-        <div class="span12">
-            <header>
-            <h1 id="recent-posts">Recent Posts <a id="allposts" href="http://doge.im/archives.html">all posts</a></h1>
-            </header>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/jie-jue-zhi-zhu-wu-fa-zhua-qu-github.html">解决蜘蛛无法抓取github  </a> 
-                <time pubdate="pubdate" datetime="2016-04-23T00:00:00+02:00">Sat 23 April 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/gu-ge-shi-chang-bu-qiu-ren.html">谷歌市场不求人  </a> 
-                <time pubdate="pubdate" datetime="2016-02-16T00:00:00+01:00">Tue 16 February 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/jun-tuan-yao-sai-2linuxfu-wu-duan.html">军团要塞2Linux服务端  </a> 
-                <time pubdate="pubdate" datetime="2016-02-16T00:00:00+01:00">Tue 16 February 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/an-zhuang-pelicanjing-tai-bo-ke.html">安装Pelican静态博客  </a> 
-                <time pubdate="pubdate" datetime="2016-02-14T00:00:00+01:00">Sun 14 February 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/ji-lu-you-shua-shadowsocks.html">极路由刷Shadowsocks  </a> 
-                <time pubdate="pubdate" datetime="2015-07-01T00:00:00+02:00">Wed 01 July 2015</time>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <header class="page_header span10 offset2">
+    <h1><a href="http://doge.im/jie-jue-zhi-zhu-wu-fa-zhua-qu-github.html"> 解决蜘蛛无法抓取github  </a></h1>
+    </header>
 </div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <h2>被拒原因</h2>
+<p>有位博主向了github咨询了得到了答复<a href="http://jerryzou.com/posts/feasibility-of-allowing-baiduSpider-for-Github-Pages/">[传送]</a>
+简言之，就是Github认为百度蜘蛛太频繁，就禁止了</p>
+<h2>正题</h2>
+<ol>
+<li>
+<p>主要思路
+    让搜索蜘蛛访问静态空间来绕过Github Page</p>
+</li>
+<li>
+<p>可选对象
+ 1.加速乐
+ 2.七牛云存储
+ 3.又拍云
+具体对比介绍不在这赘述 有需要的可以看下这位博主写的<a href="http://www.dozer.cc/2015/06/github-pages-and-cdn.html">[传送]</a></p>
+</li>
+<li>
+<p>实际操作</p>
+</li>
+</ol>
+<p>我选取的是七牛每个月10GB流量 操作起来也比另外俩个容易
+ 设置好你的源站 再设置好maxAge就可以啦</p>
+<p><img alt="nothing" src="http://7xkcd4.com1.z0.glb.clouddn.com/p1.png" /></p>
+<p>去设置解析 将蜘蛛线路 指向你的七牛空间地址</p>
+<p><img alt="nothing" src="http://7xkcd4.com1.z0.glb.clouddn.com/p2.png" /></p>
+<p>搞定辣 xDDDDDDDDDD</p>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://doge.im/gu-ge-shi-chang-bu-qiu-ren.html" title="Previous: 谷歌市场不求人">谷歌市场不求人</a></li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2016-04-23T00:00:00+02:00">Apr 23, 2016</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#misc-ref">misc</a> 
+
+        </div>
+        </section>
+</div>
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -100,12 +116,13 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer>        <script src="http://7xkcd4.com1.z0.glb.clouddn.com/thn233.js"></script>
+</footer>            <script src="http://7xkcd4.com1.z0.glb.clouddn.com/thn233.js"></script>
         <script>
             function validateForm(query)
             {
                 return (query.length > 0);
             }
         </script>
+
     </body>
 </html>
