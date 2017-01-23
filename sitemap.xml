@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://doge.im/</loc>
-<lastmod>2017-01-22T21:16:35-00:00</lastmod>
+<lastmod>2017-01-22T21:34:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/archives.html</loc>
-<lastmod>2017-01-22T21:16:35-00:00</lastmod>
+<lastmod>2017-01-22T21:34:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/tags.html</loc>
-<lastmod>2017-01-22T21:16:35-00:00</lastmod>
+<lastmod>2017-01-22T21:34:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/categories.html</loc>
-<lastmod>2017-01-22T21:16:35-00:00</lastmod>
+<lastmod>2017-01-22T21:34:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -36,6 +36,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2016-01-24T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>http://doge.im/win10zhong-zhi-hou-shu-biao-jian-pan-shi-ling.html</loc>
+<lastmod>2017-01-23T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -82,14 +89,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://doge.im/category/misc.html</loc>
-<lastmod>2016-07-20T00:00:00+08:06</lastmod>
+<lastmod>2017-01-23T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://doge.im/author/thn.html</loc>
-<lastmod>2016-07-20T00:00:00+08:06</lastmod>
+<lastmod>2017-01-23T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
