@@ -6,7 +6,8 @@
         <meta name="author" content="THn" />
         <meta name="copyright" content="THn" />
 
-        <title>THn
+<meta name="keywords" content=", misc, " />
+        <title>esp分区修复  · THn
 </title>
         <link rel="stylesheet" type="text/css" href="http://7xkcd4.com1.z0.glb.clouddn.com/2333.css" media="screen">
         <link rel="shortcut icon" href="http://7xkcd4.com1.z0.glb.clouddn.com/favicon.ico" type="image/x-icon" />
@@ -45,68 +46,64 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
+<article>
 <div class="row-fluid">
-
-    <div class="row-fluid">
-
-    </div>
-
-    <div class="row-fluid">
-        <div class="span12">
-            <header>
-            <h1 id="recent-posts">Recent Posts <a id="allposts" href="http://doge.im/archives.html">all posts</a></h1>
-            </header>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/espfen-qu-xiu-fu.html">esp分区修复  </a> 
-                <time pubdate="pubdate" datetime="2018-06-21T00:00:00+08:00">Thu 21 June 2018</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/win10zhong-zhi-hou-shu-biao-jian-pan-shi-ling.html">win10重置后鼠标键盘失灵  </a> 
-                <time pubdate="pubdate" datetime="2017-01-23T00:00:00+08:00">Mon 23 January 2017</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/win10hui-fu-ctrlspace-qie-huan-shu-ru-fa.html">win10恢复ctrl+space 切换输入法  </a> 
-                <time pubdate="pubdate" datetime="2016-07-20T00:00:00+08:00">Wed 20 July 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/jie-jue-zhi-zhu-wu-fa-zhua-qu-github.html">解决蜘蛛无法抓取github  </a> 
-                <time pubdate="pubdate" datetime="2016-04-23T00:00:00+08:00">Sat 23 April 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/gu-ge-shi-chang-bu-qiu-ren.html">谷歌市场不求人  </a> 
-                <time pubdate="pubdate" datetime="2016-02-16T00:00:00+08:00">Tue 16 February 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/jun-tuan-yao-sai-2linuxfu-wu-duan.html">军团要塞2Linux服务端  </a> 
-                <time pubdate="pubdate" datetime="2016-02-16T00:00:00+08:00">Tue 16 February 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/an-zhuang-pelicanjing-tai-bo-ke.html">安装Pelican静态博客  </a> 
-                <time pubdate="pubdate" datetime="2016-02-14T00:00:00+08:00">Sun 14 February 2016</time>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="http://doge.im/ji-lu-you-shua-shadowsocks.html">极路由刷Shadowsocks  </a> 
-                <time pubdate="pubdate" datetime="2015-07-01T00:00:00+08:00">Wed 01 July 2015</time>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <header class="page_header span10 offset2">
+    <h1><a href="http://doge.im/espfen-qu-xiu-fu.html"> esp分区修复  </a></h1>
+    </header>
 </div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <h1>esp分区修复</h1>
+<hr />
+<p>我在装黑苹果重建eps分区后忘记重新用easyuefi修复引导，导致无法进入win10</p>
+<blockquote>
+<ul>
+<li>烧录winpe</li>
+<li>分配esp分区盘符</li>
+<li>重建引导</li>
+</ul>
+</blockquote>
+<h2>下载rufus和winpe</h2>
+<p>下载地址http://rufus.akeo.ie/downloads/rufus-3.1.exe
+        链接: https://pan.baidu.com/s/1EC4pak1FEHHtGn1BAgmPUg 密码: cscu
+<img alt="此处输入图片的描述" src="http://rufus.akeo.ie/pics/rufus_zh_CN.png" /></p>
+<h2>diskpart</h2>
+<p>diskpart
+DISKPART &gt;list volume
+DISKPART &gt;select volume n #n为你要选择的驱动器号
+DISKPART &gt;assign letter=I #其中，I 是要(把当前驱动器号)指派或更改的驱动器号。
+DISKPART &gt;exit            #退出</p>
+<h2>bcdboot</h2>
+<p>bcdboot c:\windows /s o: /f uefi /l zh-cn
+其中：c:\windows  硬盘系统目录，根据实际情况修改
+/s o:     指定esp分区所在磁盘，根据实际情况修改
+/f uefi   指定启动方式为uefi
+/l zh-cn  指定uefi启动界面语言为简体中文</p>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://doge.im/win10zhong-zhi-hou-shu-biao-jian-pan-shi-ling.html" title="Previous: win10重置后鼠标键盘失灵">win10重置后鼠标键盘失灵</a></li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2018-06-21T00:00:00+08:00">Jun 21, 2018</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#misc-ref">misc</a> 
+
+        </div>
+        </section>
+</div>
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -119,12 +116,13 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer>        <script src="http://7xkcd4.com1.z0.glb.clouddn.com/thn233.js"></script>
+</footer>            <script src="http://7xkcd4.com1.z0.glb.clouddn.com/thn233.js"></script>
         <script>
             function validateForm(query)
             {
                 return (query.length > 0);
             }
         </script>
+
 		</body>
 </html>
