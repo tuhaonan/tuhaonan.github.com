@@ -31,6 +31,47 @@
     <button data-method="setTop" class="layui-btn" style="margin-top: 60px" id="button2">多窗口模式，层叠置顶</button>
 </div>
 <script>
+    //  layui.use('form', function(){
+    layui.use('layer', function(){ //独立版的layer无需执行这一句
+        var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
+        //触发事件
+        var active = {
+            setTop: function(){
+                var that = this;
+                //多窗口模式，层叠置顶
+                layer.open({
+                    type: 2 //此处以iframe举例
+                    ,title: ''
+                    ,area: ['695px', '640px']
+                    ,shade: 0.5
+                    ,maxmin: false
+                    ,skin: 'myskin'/*注意这里用到了我们前面给 layer 写的自定义 skin*/
+                    ,offset: [ //为了演示，随机坐
+                        '7%' , '28%'
+                    ]
+                    ,content: 'https://guanjia.jutui.org/index/index/tanchu'
+                    ,yes: function(){
+                        $(that).click();
+                    }
+                    ,btn2: function(){
+                        layer.closeAll();
+                    }
+                    ,zIndex: layer.zIndex //重点1
+                    ,success: function(layero){
+                        layer.setTop(layero); //重点2
+                    }
+                });
+            }
+        };
+
+        $('#layerDemo .layui-btn').on('click', function(){
+            var othis = $(this), method = othis.data('method');
+            active[method] ? active[method].call(this, othis) : '';
+        });
+
+    });
+</script>
+<script>
     function baojia() {
         $('#button2').click();
     }
